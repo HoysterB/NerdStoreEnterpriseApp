@@ -1,10 +1,10 @@
 ﻿using System;
-using NSE.Core.Data;
 
-namespace NSE.Catalogo.API.Models
+namespace NSE.WebApp.MVC.Models
 {
-    public class Produto : Entity, IAggregateRoot
+    public class ProdutoViewModel
     {
+        public Guid Id { get; set; }
         public string Nome { get; set; }
         public string Descricao { get; set; }
         public bool Ativo { get; set; }
