@@ -39,6 +39,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{C9
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NSE.WebAPI.Core", "src\Building Blocks\NSE.WebAPI.Core\NSE.WebAPI.Core.csproj", "{71CEEA38-E05B-4717-A887-BDB64ECBB0A0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NSE.Clientes.API", "src\Services\NSE.Clientes.API\NSE.Clientes.API.csproj", "{B8490A57-381D-453D-B7F8-19FF958120D4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -65,6 +67,10 @@ Global
 		{71CEEA38-E05B-4717-A887-BDB64ECBB0A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71CEEA38-E05B-4717-A887-BDB64ECBB0A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{71CEEA38-E05B-4717-A887-BDB64ECBB0A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8490A57-381D-453D-B7F8-19FF958120D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8490A57-381D-453D-B7F8-19FF958120D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8490A57-381D-453D-B7F8-19FF958120D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8490A57-381D-453D-B7F8-19FF958120D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -87,6 +93,7 @@ Global
 		{D8EEE083-D5B0-4FCF-B6D1-25F3D6F83F02} = {E62AFF33-360E-4554-9187-95319234C167}
 		{C9575A0B-3B19-4652-B797-896C712A1ABF} = {0488ECD2-24FB-4825-A029-CD3A62A66C2F}
 		{71CEEA38-E05B-4717-A887-BDB64ECBB0A0} = {C9575A0B-3B19-4652-B797-896C712A1ABF}
+		{B8490A57-381D-453D-B7F8-19FF958120D4} = {F4938A88-7DB9-4248-9A7F-D13D12D30BF0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B3B0C4A2-D6D2-4AEE-9E23-68AF5B05D885}
